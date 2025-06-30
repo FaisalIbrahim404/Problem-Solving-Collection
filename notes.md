@@ -97,7 +97,7 @@
 
 ### 1.2 GCD/LCM & Number Theory  
 - **Euclidean Algorithm**:  
-  - $ \gcd(a, b) = \gcd(b, a \mod b) $  
+  - $\gcd(a, b) = \gcd(b, a \mod b)$  
   - Iterative implementation:  
     ```cpp  
     int gcd(int a, int b) {  
@@ -110,7 +110,7 @@
     }  
     ```  
 - **Extended GCD**: Find integers $x, y$ such that $ax + by = \gcd(a, b)$.  
-- **LCM**: $ \text{lcm}(a, b) = \frac{a \cdot b}{\gcd(a, b)} $.  
+- **LCM**: $\text{lcm}(a, b) = \frac{a \cdot b}{\gcd(a, b)}$.  
 - **Prime Sieve (Eratosthenes)**:  
   ```cpp  
   vector<bool> is_prime(n+1, true);  
@@ -157,7 +157,7 @@
   }  
   ```  
 - **Matrix Exponentiation**: Use for linear recursions (e.g., Fibonacci):  
-  - $F_n = F_{n-1} + F_{n-2}$ → represent as $ \begin{bmatrix} 1 & 1 \\ 1 & 0 \end{bmatrix}^n $.  
+  - $F_n = F_{n-1} + F_{n-2}$ → represent as $\begin{bmatrix} 1 & 1 \\ 1 & 0 \end{bmatrix}^n$.  
 - **Determinant & Inverse (2x2)**:  
   - Determinant: $ad - bc$ for $\begin{bmatrix} a & b \\ c & d \end{bmatrix}$.  
   - Inverse: $\frac{1}{ad - bc} \begin{bmatrix} d & -b \\ -c & a \end{bmatrix}$.  
